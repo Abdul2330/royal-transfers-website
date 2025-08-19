@@ -1,5 +1,5 @@
-//Hero.jsx
-import BG from '../assets/BG.PNG';
+
+import BG from '../assets/BG.png';
 
 export default function Hero() {
   return (

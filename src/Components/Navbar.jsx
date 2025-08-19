@@ -57,7 +57,7 @@ useEffect(() => {
 const fetchUserData = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const Data = { name: "Abdul", loggedIn: true, String:"This is a dummy site not real only frontend" };
+      const Data = { name: "Abdul", loggedIn: true };
       resolve(Data);
     }, 2000); // 2 second delay
   });
