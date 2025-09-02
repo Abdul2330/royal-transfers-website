@@ -37,7 +37,7 @@ export default function Hero() {
           <img
             src="https://www.airportlondonuktaxi.co.uk/_next/static/media/taxi-hero.6d696aae.svg"
             alt="Luxury Car"
-            className="w-4/5 sm:w-3/4 md:w-full max-w-xs sm:max-w-md md:max-w-lg mt-6 md:mt-0"
+            className="w-4/5 sm:w-3/4 md:w-full max-w-xs sm:max-w-md md:max-w-lg mt-6 md:mt-0 lg:mt-16 xl:mt-0"
           />
         </div>
       </div>
