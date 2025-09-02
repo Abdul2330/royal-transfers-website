@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react"; // Make sure lucide-react is install
 
 export default function WhyChoose() {
   return (
-    <section className="bg-[#1a1919] py-16 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10 ">
+    <section className="bg-blue-700 py-16 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10 ">
       {/* Text Section */}
       <div className="md:w-1/2 space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold mt-11">

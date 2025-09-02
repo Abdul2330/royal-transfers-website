@@ -100,7 +100,7 @@ useEffect(() => {
           <a onClick={() => handleNavigation('home')} className="text-white cursor-pointer">Home</a>
           <a onClick={() => handleNavigation('cartypes')} className="text-white cursor-pointer">Car Types</a>
           <a onClick={() => handleNavigation('cities')} className="text-white cursor-pointer">Cities</a>
-         <Link to="/about" className="text-white">About</Link>
+      { /*  <Link to="/about" className="text-white">About</Link> */}
           <a onClick={() => handleNavigation('Terms')} className="text-white cursor-pointer">T&C</a>
 
         </div>
