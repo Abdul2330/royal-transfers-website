@@ -91,7 +91,7 @@ useEffect(() => {
           <img
             src="https://www.airportlondonuktaxi.co.uk/_next/static/media/logo.8517b473.svg"
             alt="Royals"
-            className="ml-10 h-[60px]"
+            className="h-10 md:h-[60px] ml-0 md:ml-10"
           /></Link>
         </div>
 

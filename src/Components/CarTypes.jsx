@@ -46,17 +46,17 @@ const cars = [
 export default function CarTypes(){
     return(
     <section id="cartypes"
-    className="bg-gray-200 py-20 px-6 font-times md:px-12 overflow-x-hidden">
+    className="bg-gray-200 py-16 md:py-20 px-4 md:px-12 font-times overflow-x-hidden">
       {/* Title */}
-      <h2 className="font-bold text-4xl mb-2 text-[#1c1536] ml-11">
+      <h2 className="font-bold text-3xl md:text-4xl mb-2 text-[#1c1536] ml-0 md:ml-11 text-center md:text-left">
         CAR TYPES <span className="text-[#d9b66c]">AVAILABLE</span>
       </h2>
 
       {/* Flex container */}
-      <div className="flex flex-col lg:flex-row gap-8 mt-10">
+      <div className="flex flex-col lg:flex-row gap-8 mt-8 md:mt-10">
         {/* Paragraph */}
         <div className="lg:w-1/3">
-          <p className="text-gray-600 leading-relaxed text-sm mt-7 ml-11">
+          <p className="text-gray-600 leading-relaxed text-sm mt-4 md:mt-7 ml-0 md:ml-11 text-center md:text-left">
             Various car types available for rides include economy,<br />
             Estate, Executive, MVP and Minibus, catering to different<br />
             passenger needs and preferences. These options <br />
@@ -67,11 +67,11 @@ export default function CarTypes(){
         {/* Car Cards */}
         <div className="lg:w-2/3 flex flex-col">
           {/* First row: first two cards */}
-          <div className="flex justify-end gap-6 mb-11 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 md:mb-11 w-full">
             {cars.slice(0, 2).map((car, i) => (
               <div
                 key={i}
-                className="relative bg-white p-6 rounded-2xl mb-3 shadow hover:shadow-lg transition duration-300 min-w-[200px] h-[200px] flex-1"
+                className="relative bg-white p-5 md:p-6 rounded-2xl shadow hover:shadow-lg transition duration-300 h-[200px]"
               >
                 {/* Info */}
                 <div className="absolute top-4 right-4 text-[#1c1536] space-y-1 text-xs text-right">
@@ -90,7 +90,7 @@ export default function CarTypes(){
                 </div>
 
                 {/* Car Name */}
-                <h3 className="text-[#1c1536] text-xl font-bold mb-2">{car.name}</h3>
+                <h3 className="text-[#1c1536] text-lg md:text-xl font-bold mb-2">{car.name}</h3>
 
                 {/* Stars */}
                 <div className="flex mb-4">
@@ -103,16 +103,16 @@ export default function CarTypes(){
                 </div>
 
                 {/* Image */}
-                <img src={car.image} alt={car.name} className="w-[30%] h-auto mb-2" />
+                <img src={car.image} alt={car.name} className="w-1/3 h-auto mb-2" />
               </div>
             ))}
           </div>
           {/* Second row:  */}
-          <div className="flex justify-between w-full   gap-6 -ml-[250px] ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-6">
             {cars.slice(2).map((car, i) => (
               <div
                 key={i}
-              className="relative bg-white p-6 rounded-2xl h-[220px] min-w-[350px] max-w-[400px] w-full shadow hover:shadow-lg transition duration-300"
+              className="relative bg-white p-5 md:p-6 rounded-2xl h-[220px] w-full shadow hover:shadow-lg transition duration-300"
   >
                 {/* Info */}
                 <div className="absolute top-4 right-4 text-[#1c1536] space-y-1 text-xs text-right">
@@ -131,7 +131,7 @@ export default function CarTypes(){
                 </div>
 
                 {/* Car Name */}
-                <h3 className="text-[#1c1536] text-xl font-bold mb-2">{car.name}</h3>
+                <h3 className="text-[#1c1536] text-lg md:text-xl font-bold mb-2">{car.name}</h3>
 
                 {/* Stars */}
                 <div className="flex mb-4">
@@ -144,7 +144,7 @@ export default function CarTypes(){
                 </div>
 
                 {/* Image */}
-                <img src={car.image} alt={car.name} className="w-[50%] h-auto mb-2" />
+                <img src={car.image} alt={car.name} className="w-1/2 h-auto mb-2" />
               </div>
             ))}
           </div>

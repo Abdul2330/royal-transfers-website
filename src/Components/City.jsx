@@ -78,30 +78,30 @@ const City = () => {
 
   return (
     <section id="cities" className="py-10 px-4 bg-white">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#1c1536] text-center mb-4">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#1c1536] text-center mb-2 md:mb-4">
         SERVING <span className="text-[#d9b66c]">MULTIPLE LOCALITIES</span>
       </h2>
-      <p className="text-gray-500 text-center mt-7 mb-6 text-sm md:text-base">
+      <p className="text-gray-500 text-center mt-3 md:mt-7 mb-6 text-sm md:text-base">
         Royal Transfers proudly serves towns, villages, and cities throughout the UK.
       </p>
 
       <div
         ref={scrollRef}
-        className="max-w-[860px] mx-auto flex gap-6 overflow-x-auto pb-4 scrollbar-hide"
-        style={{ width: "860px" }}
+        className="mx-auto flex gap-4 md:gap-6 overflow-x-auto pb-4 scrollbar-hide px-1"
+        style={{ width: "100%", maxWidth: "860px" }}
       >
         {cities.map((city, index) => (
           <div
             key={index}
-            className="min-w-[200px] h-[200px] bg-white rounded-lg shadow-md relative"
+            className="min-w-[160px] md:min-w-[200px] h-[180px] md:h-[200px] bg-white rounded-lg shadow-md relative"
             style={{ flex: "0 0 auto" }}
           >
             <div className="h-16 flex items-center justify-center bg-white bg-opacity-90">
-              <h3 className="text-[#1c1536] text-lg font-bold text-center px-2">
+              <h3 className="text-[#1c1536] text-base md:text-lg font-bold text-center px-2">
                 {city.name}
               </h3>
             </div>
-            <div className="h-[100px]">
+            <div className="h-[90px] md:h-[100px]">
               <img
                 src={city.image}
                 alt={city.name}
