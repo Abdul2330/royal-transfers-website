@@ -33,11 +33,11 @@ export default function Hero() {
         </div>
 
         {/* Car Image */}
-        <div className="md:mt-0 md:ml-12 w-full flex justify-center">
+        <div className=" md:mt-0 md:ml-12 w-full flex justify-center">
           <img
             src="https://www.airportlondonuktaxi.co.uk/_next/static/media/taxi-hero.6d696aae.svg"
             alt="Luxury Car"
-            className="w-4/5 sm:w-3/4 md:w-full max-w-xs sm:max-w-md md:max-w-lg mt-6 md:mt-0 lg:mt-32 xl:mt-0"
+            className=" w-4/5 sm:w-3/4 md:w-full max-w-xs sm:max-w-md md:max-w-lg mt-6 md:mt-0 lg:mt-32 xl:mt-64"
           />
         </div>
       </div>

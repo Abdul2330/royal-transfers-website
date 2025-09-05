@@ -8,7 +8,7 @@ const cars = [
         passenger: 3,
         large: 2,
         small: 1,
-        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feconomy.bcfc3273.png&w=384&q=75",
+        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feconomy.66bad83b.png&w=828&q=75",
     },
      {
         name: "ESTATE",
@@ -16,7 +16,7 @@ const cars = [
         passenger: 4,
         large: 4,
         small: 0,
-        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Festate.1585d962.png&w=384&q=75",
+        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Festate.ef38450f.png&w=750&q=75",
     },
     {
         name: "EXECUTIVE",
@@ -24,7 +24,7 @@ const cars = [
         passenger: 3,
         large: 2,
         small: 2,
-        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexecutive.4444c80a.png&w=384&q=75",
+        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexecutive.da6e5800.png&w=1920&q=75",
     },
     {
         name: "MPV",
@@ -32,7 +32,7 @@ const cars = [
         passenger: 3,
         large: 3,
         small: 2,
-        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmpv.882ea1a0.png&w=384&q=75",
+        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmpv.e0a5b83b.png&w=1920&q=75",
     },
     {
         name: "MINIBUS",
@@ -40,7 +40,7 @@ const cars = [
         passenger: 8,
         large: 8,
         small: 1,
-        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmini-bus.15527e29.png&w=384&q=75",
+        image:"https://www.airportlondonuktaxi.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmini-bus.cd64bae9.png&w=750&q=75",
     },
 ];
 export default function CarTypes(){
@@ -108,7 +108,7 @@ export default function CarTypes(){
             ))}
           </div>
           {/* Second row:  */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-6">
+          <div className="grid grid-cols-1 mr-[200px] sm:grid-cols-2 lg:grid-cols-3 w-full gap-6  ">
             {cars.slice(2).map((car, i) => (
               <div
                 key={i}
